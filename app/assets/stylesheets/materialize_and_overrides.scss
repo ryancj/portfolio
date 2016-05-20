@@ -4,7 +4,13 @@
 
 @import "materialize/components/color";
 @import "materialize";
+.progress {
+  margin-left: 50px !important;
+}
+.circle {
+  padding-right: 30px;
+}
 
-h1 {
-  padding-top: 20px;
+blockquote {
+  border-color: #0288d1;
 }
