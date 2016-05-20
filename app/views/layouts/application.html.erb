@@ -4,9 +4,25 @@
   <title>Portfolio</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <%= csrf_meta_tags %>
 </head>
 <body>
+
+  <nav>
+    <div class='nav-wrapper container'>
+      <span class='brand-logo'>
+        <i class="material-icons">invert_colors</i>
+      </span>
+      </span>
+      <ul class='right hide-on-med-and-down'>
+        <li><%= link_to 'Home', action: "home" %></li>
+        <li><%= link_to 'About', action: "home" %></li>
+        <li><%= link_to 'Projects', action: "home" %></li>
+        <li><%= link_to 'Contact', action: "home" %></li>
+      </ul>
+    </div>
+  </nav>
 
 <%= yield %>
 
