@@ -1,7 +1,7 @@
 <!-- About Card -->
 
 <div class='container'>
-  <div class='card-panel hoverable'>
+  <div class='card-panel hoverable' id='about-card'>
 
     <div class='row valign-wrapper'>
       <div class='col s5'>
@@ -11,8 +11,8 @@
         <h3>Hello, I'm <strong>Ryan Ching</strong></h3>
         <h5>Web Developer / Interaction Designer</h5>
         <div class='divider'></div>
-        <blockquote>
-          Thanks for visiting my portfolio site. Welcome. Hire me prez!
+        <blockquote style='border-color: #0288d1;'>
+          Thanks for visiting my portfolio site. Hire me prez!
         </blockquote>
         <a class='waves-effect waves-light btn blue'>my resume</a>
         <a class='waves-effect waves-light btn blue'>contact me</a>
@@ -44,7 +44,7 @@
       <div class='col s6'>
         <span style='display: block;'>Ruby</span>
         <div class='progress'>
-          <div class='determinate blue' style='width: 69%'></div>
+          <div class='determinate blue' style='width: 75%'></div>
         </div>
       </div>
 
@@ -83,7 +83,42 @@
       </div>
 
     </div>
-    <div class='divider'></div>
-    <h5 class='center-align'>Soft Skills</h5>
   </div>
+</div>
+
+<!-- Porfolio -->
+
+<div class='container'>
+
+  <h5 class='center-align'>Porfolio</h5>
+  <div class='row' style='margin-bottom: 0px;'>
+
+    <div class='card hoverable col s4'>
+      <div class='card-image'>
+        <%= image_tag 'codestamps.png', class: 'responsive-img' %>
+        <span class='card-title black-text'>Code Stamps</span>
+      </div>
+      <div class='card-content'>
+        This is my project
+      </div>
+      <div class='card-action'>
+        <div class='row'>
+          <div class='chip'>
+            React JS
+          </div>
+          <div class='chip'>
+            Ruby on Rails
+          </div>
+          <div class='chip'>
+            jQuery
+          </div>
+          <div class='chip'>
+            AJAX
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
 </div>
