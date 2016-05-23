@@ -1,33 +1,40 @@
 <!-- About Card -->
 
-<div class='container'>
-  <div class='card-panel hoverable' id='about-card'>
+<div class='section'>
+  <div class='container'>
 
-    <div class='row valign-wrapper'>
-      <div class='col s12 m5 l5'>
-        <%= image_tag 'me.jpg', class: 'responsive-img circle' %>
+    <div class='card-panel hoverable' id='about-card'>
+      <div class='row valign-wrapper'>
+        <div class='col s12 m5 l5'>
+          <%= image_tag 'me.jpg', class: 'responsive-img circle' %>
+        </div>
+        <div class='col s12 m7 m7'>
+          <h3>Hello, I'm <strong>Ryan Ching</strong></h3>
+          <h5>Web Developer / Interaction Designer</h5>
+          <blockquote style='border-color: #0288d1;'>
+            Thanks for visiting my portfolio site. Hire me prez!
+          </blockquote>
+          <a class='waves-effect waves-light btn blue button-size'>my resume</a>
+          <a class='waves-effect waves-light btn blue button-size'>contact me</a>
+        </div>
       </div>
-      <div class='col s12 m7 m7'>
-        <h3>Hello, I'm <strong>Ryan Ching</strong></h3>
-        <h5>Web Developer / Interaction Designer</h5>
-        <!-- <div class='divider'></div> -->
-        <blockquote style='border-color: #0288d1;'>
-          Thanks for visiting my portfolio site. Hire me prez!
-        </blockquote>
-        <a class='waves-effect waves-light btn blue button-size'>my resume</a>
-        <a class='waves-effect waves-light btn blue button-size'>contact me</a>
-      </div>
-    </div>
 
-    <div class='row card-action' style='margin-bottom: 0px;'>
-      <div class='col s4 center-align'>
-        <a class='fa fa-linkedin fa-2x grey-text' href='http://linkedin.com/in/ryching'></a>
+      <div class='row'>
+          <span class='blue-text'><strong>Hobbies:</strong></span> Technology, Music, Cats
       </div>
-      <div class='col s4 center-align'>
-        <a class='fa fa-github-alt fa-2x grey-text' href='https://github.com/ryancj'></a>
-      </div>
-      <div class='col s4 center-align'>
-        <a class='fa fa-angellist fa-2x grey-text' href='https://angel.co/ryankc'></a>
+
+      <div class='row card-action' style='margin-bottom: 0px;'>
+        <div class='col s4 center-align'>
+          <a class='fa fa-linkedin fa-2x grey-text' href='http://linkedin.com/in/ryching'></a>
+        </div>
+        <div class='col s4 center-align'>
+          <a class='fa fa-github-alt fa-2x grey-text'
+           onclick="Materialize.toast('*meow*', 4000)"
+              href='https://github.com/ryancj'></a>
+        </div>
+        <div class='col s4 center-align'>
+          <a class='fa fa-angellist fa-2x grey-text' href='https://angel.co/ryankc'></a>
+        </div>
       </div>
     </div>
 
@@ -36,66 +43,70 @@
 
 <!-- Skills -->
 
-<div class='container'>
-  <div class='card-panel hoverable'>
-    <h5 class='center-align'>Technical Skills</h5>
-    <div class='row' style='margin-bottom: 0px;'>
+<div class='section'>
+  <div class='container'>
 
-      <div class='col s12 m6 l6'>
-        <span style='display: block;'>Ruby</span>
-        <div class='progress'>
-          <div class='determinate blue' style='width: 75%'></div>
+    <div class='card-panel hoverable'>
+
+      <h5 class='header center-align'>Technical Skills</h5>
+
+      <div class='row' style='margin-bottom: 0px;'>
+        <div class='col s12 m6 l6'>
+          <span style='display: block;'>Ruby</span>
+          <div class='progress'>
+            <div class='determinate blue' style='width: 75%'></div>
+          </div>
+        </div>
+
+        <div class='col s12 m6 l6'>
+          <span style='display: block;'>Javascript</span>
+          <div class='progress'>
+            <div class='determinate blue' style='width: 70%'></div>
+          </div>
         </div>
       </div>
 
-      <div class='col s12 m6 l6'>
-        <span style='display: block;'>Javascript</span>
-        <div class='progress'>
-          <div class='determinate blue' style='width: 70%'></div>
+      <div class='row' style='margin-bottom: 0px;'>
+        <div class='col s12 m6 l6'>
+          <span style='display: block;'>HTML</span>
+          <div class='progress'>
+            <div class='determinate blue' style='width: 90%'></div>
+          </div>
+        </div>
+
+        <div class='col s12 m6 l6'>
+          <span style='display: block;'>CSS</span>
+          <div class='progress'>
+            <div class='determinate blue' style='width: 80%'></div>
+          </div>
+        </div>
+      </div>
+
+      <div class='row' style='margin-bottom: 0px;'>
+        <div class='col s12 m6 l6'>
+          <span style='display: block;'>React JS</span>
+          <div class='progress'>
+            <div class='determinate blue' style='width: 65%'></div>
+          </div>
         </div>
       </div>
 
     </div>
-    <div class='row' style='margin-bottom: 0px;'>
 
-      <div class='col s12 m6 l6'>
-        <span style='display: block;'>HTML</span>
-        <div class='progress'>
-          <div class='determinate blue' style='width: 90%'></div>
-        </div>
-      </div>
-
-      <div class='col s12 m6 l6'>
-        <span style='display: block;'>CSS</span>
-        <div class='progress'>
-          <div class='determinate blue' style='width: 80%'></div>
-        </div>
-      </div>
-
-    </div>
-    <div class='row' style='margin-bottom: 0px;'>
-
-      <div class='col s12 m6 l6'>
-        <span style='display: block;'>React JS</span>
-        <div class='progress'>
-          <div class='determinate blue' style='width: 65%'></div>
-        </div>
-      </div>
-
-    </div>
   </div>
 </div>
 
 <!-- Porfolio -->
 
-<div id='portfolio-cointainer'>
+<div class='section blue'>
   <div class='container'>
-    <h5 class='center-align'>Porfolio</h5>
+    <h5 class='header center-align'>Porfolio</h5>
+
     <div class='row' style='margin-bottom: 0px;'>
 
-      <div class='card hoverable col s12 m4 l4'>
+      <div class='card medium hoverable col s12 m4 l4'>
         <div class='card-image'>
-          <%= image_tag 'codestamps.png', class: 'responsive-img' %>
+          <%= image_tag 'codestamps.jpg', class: 'responsive-img' %>
         </div>
         <div class='card-content'>
           This is my project
@@ -117,6 +128,33 @@
           </div>
         </div>
       </div>
+
+      <div class='card medium hoverable col s12 m4 l4'>
+        <div class='card-image'>
+          <%= image_tag 'codrlogue.jpg', class: 'responsive-img' %>
+        </div>
+        <div class='card-content'>
+          This is my project
+        </div>
+        <div class='card-action'>
+          <div class='row'>
+            <div class='chip'>
+              React JS
+            </div>
+            <div class='chip'>
+              Ruby on Rails
+            </div>
+            <div class='chip'>
+              jQuery
+            </div>
+            <div class='chip'>
+              AJAX
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
+
   </div>
 </div>
