@@ -1,5 +1,7 @@
 $(function() {
 
-  $('.scrollspy').scrollSpy(); //scrolling effect
+  $('.scrollspy').scrollSpy(); //Scrolling effect
+
+  $(".button-collapse").sideNav(); //Side Nav for mobile
 
 });

@@ -5,12 +5,12 @@
 @import "materialize/components/color";
 @import "materialize";
 
-#about-card {
+#intro-card {
   padding: 25px;
-  margin-top: 50px;
+  // margin-top: 65px;
 }
 
-#about-card h3 {
+#intro-card h3 {
   margin: 0px;
 }
 
@@ -20,4 +20,8 @@
 
 .button-size {
   width: 150px;
+}
+
+.icon-align {
+  vertical-align: middle !important;
 }

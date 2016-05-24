@@ -11,20 +11,22 @@
 <body>
 
   <!-- Navbar -->
-
+<div class='navbar-fixed'>
   <nav class='light-blue darken-2 scrollspy'>
     <div class='container'>
       <div class='brand-logo'>
         <strong>&lsaquo;RC&rsaquo;</strong>
       </div>
       <ul class='right hide-on-med-and-down'>
-        <li><a href='#home'>Home</a></li>
-        <li><%= link_to 'About', action: 'home' %></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><%= link_to 'Contact', action: 'home' %></li>
+        <li><a href='#intro-card'>Home</a></li>
+        <li><a href='#about'>About</a></li>
+        <li><a href='#skills'>Skills</a></li>
+        <li><a href='#projects'>Projects</a></li>
+        <li><a href='#contact'>Contact</a></li>
       </ul>
     </div>
   </nav>
+</div>
 
 <%= yield %>
 
