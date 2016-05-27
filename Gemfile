@@ -6,9 +6,10 @@ gem 'hirb'
 gem 'interactive_editor'
 gem 'awesome_print'
 
-# CSS Library
+# Frontend
 
 gem 'materialize-sass'
+gem "font-awesome-rails"
 
 ######################
 
