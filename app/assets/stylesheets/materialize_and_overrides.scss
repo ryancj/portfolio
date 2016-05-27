@@ -6,8 +6,9 @@
 @import "materialize";
 
 #intro-card {
-  padding: 25px;
-  // margin-top: 65px;
+  // padding: 25px;
+  margin-top: 55px;
+  margin-bottom: 65px;
 }
 
 #intro-card h3 {
@@ -30,4 +31,8 @@
   width: 90% !important;
   height: 80% !important;
   max-height: 100% !important;
+}
+
+.parallax-container {
+  height: "your height here";
 }
