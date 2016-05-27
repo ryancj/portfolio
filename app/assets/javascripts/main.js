@@ -12,14 +12,6 @@ $(function() {
 
   sr.reveal('.tech-logo', { duration: 1500, distance: '20px' }, 50);
   sr.reveal('.fade', { duration: 1500, distance:'10px', scale: 1 });
+  sr.reveal('.stag-list', { duration: 600, origin: 'left', distance:'20px', scale: 1 }, 100);
 
 });
-
-var options = [{ selector:".whoosh", offset: 500, callback: function(){
-  Materialize.showStaggeredList(".whoosh");
-}}];
-Materialize.scrollFire(options);
-
-{selector: '#staggered-test', offset: 400, callback: function() {
-  Materialize.showStaggeredList("#staggered-test");
-} },
