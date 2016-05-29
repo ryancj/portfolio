@@ -6,13 +6,17 @@
 @import "materialize";
 
 #intro-card {
-  // padding: 25px;
-  margin-top: 55px;
+  padding: 25px;
+  margin-top: 45px;
   margin-bottom: 65px;
 }
 
 #intro-card h3 {
   margin: 0px;
+}
+
+.left-marg {
+  margin-left: 5px;
 }
 
 .pattern {
@@ -40,4 +44,23 @@
 
 .parallax-container {
   height: "your height here";
+}
+
+/////////////////////////////////
+// main teal #00b7af
+// lighter teal #9bd8d9
+// cream accent #dadad2
+// grey #5c5d5f
+// brown links 9a8f7b
+
+.custom-teal {
+  background-color: #00b7af;
+}
+
+.custom-cream {
+  background-color: #dadad2;
+}
+
+.text-color {
+  color: #5c5d5f;
 }
