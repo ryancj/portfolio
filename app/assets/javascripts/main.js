@@ -12,8 +12,8 @@ $(function() {
 
   window.sr = ScrollReveal({ reset: true }); //Initialize ScrollReveal
 
-  sr.reveal('.tech-logo', { duration: 1000, distance: '20px', viewFactor: 0.5 }, 45);
+  sr.reveal('.tech-logo', { duration: 1100, distance: '20px', viewFactor: 0.5 }, 40);
+  sr.reveal('.stag-list', { duration: 1000, origin: 'left', distance:'20px', scale: 1 }, 100);
   sr.reveal('.fade', { duration: 700, distance:'20px', scale: 1 });
-  sr.reveal('.stag-list', { duration: 700, origin: 'left', distance:'20px', scale: 1 }, 80);
-
+$('ul.tabs').tabs('select_tab', 'tab_id');
 });

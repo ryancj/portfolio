@@ -46,16 +46,21 @@ nav ul li:hover {
   line-height: 2 !important;
 }
 
-/////////////////////////////////
-// main teal #00b7af
-// lighter teal #9bd8d9
-// cream accent #dadad2
-// grey #5c5d5f
-// brown links 9a8f7b
+// Tab Changes
 
-// .card-title {
-//   font-weight: 200 !important;
-// }
+.tabs .tab a:hover {
+    color: #dadad2;
+}
+
+.tabs .tab a {
+    color: #5c5d5f;
+}
+
+.tabs .indicator {
+    background-color: #00b7af;
+}
+
+///
 
 .myteal-text {
   color: #00b7af;
