@@ -4,18 +4,18 @@
 <div class='section pattern'>
   <div class='container'>
 
-    <div class='card-panel hoverable scrollspy' id='intro-card'>
+    <div class='card-panel fade hoverable scrollspy' id='intro-card'>
       <div class='row valign-wrapper'>
         <div class='col s12 m5 l5'>
           <%= image_tag 'me.jpg', class: 'responsive-img circle' %>
         </div>
         <div class='col s12 m7 l7 hide-on-small-only'>
           <div class='flow-text left-marg'>
-            <h2 class='cream-text' style='margin-bottom: 3px;'>
+            <h2 class='myteal-text' style='margin-bottom: 0px;'>
               <span class='weight-200'>Hello, I'm </span>
-              <span class='myteal-text'>Ryan Ching</span>
+              Ryan Ching
             </h2>
-            <h5 class='dark-text' style='margin-top: 3px;'>
+            <h5 class='light-teal-text weight-200' style='margin-top: 0px;'>
               Full Stack Developer / Interaction Designer
             </h5>
             <p class='dark-text'>
@@ -74,9 +74,9 @@
 <div class='section'>
   <div class='container'>
 
-    <span class='header center-align scrollspy'>
+    <span class='header center-align'>
       <h3 class='myteal-text'>
-        <span class='cream-text weight-200'>Who is</span> Ryan Ching?</h3>
+        <span class='weight-200 scrollspy' id='about'>My Passions and Hobbies</span></h3>
     </span>
 
     <div class='row'>
@@ -87,12 +87,12 @@
             <img class='activator' src='http://i.imgur.com/ZGSGH0D.jpg'/>
           </div>
           <div class='card-content'>
-            <span class='card-title dark-text activator'>Developer
+            <span class='card-title dark-text activator'>Web Development
               <i class='material-icons align-adjust right'>more_vert</i>
             </span>
           </div>
           <div class='card-reveal'>
-            <span class='card-title dark-text'>Developer
+            <span class='card-title dark-text'>Web Development
               <i class='material-icons right'>close</i>
             </span>
             <p class='dark-text'>
@@ -109,12 +109,12 @@
             <img class='activator' src='http://i.imgur.com/CItsqFT.jpg'/>
           </div>
           <div class='card-content'>
-            <span class='card-title dark-text activator'>Designer
+            <span class='card-title dark-text activator'>Interaction Design
               <i class='material-icons align-adjust right'>more_vert</i>
             </span>
           </div>
           <div class='card-reveal'>
-            <span class='card-title dark-text'>Designer
+            <span class='card-title dark-text'>Interaction Design
               <i class='material-icons right'>close</i>
             </span>
             <p class='dark-text'>
@@ -127,10 +127,52 @@
 
     </div>
 
-    <div>
-      <p class='flow-text dark-text scrollspy' id='about'>
+    <div class='row scrollspy'>
 
-      </p>
+      <div class='col s12 m6 l6'>
+        <div class='card fade hoverable'>
+          <div class='card-image waves-effect waves-block waves-light'>
+            <img class='activator' src='http://i.imgur.com/LtuP1Nk.jpg'/>
+          </div>
+          <div class='card-content'>
+            <span class='card-title dark-text activator'>Music
+              <i class='material-icons align-adjust right'>more_vert</i>
+            </span>
+          </div>
+          <div class='card-reveal'>
+            <span class='card-title dark-text'>Music
+              <i class='material-icons right'>close</i>
+            </span>
+            <p class='dark-text'>
+              Here is some more information about this
+              product that is only revealed once clicked on.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class='col s12 m6 l6'>
+        <div class='card fade hoverable'>
+          <div class='card-image waves-effect waves-block waves-light'>
+            <img class='activator' src='http://i.imgur.com/CItsqFT.jpg'/>
+          </div>
+          <div class='card-content'>
+            <span class='card-title dark-text activator'> Hobbies
+              <i class='material-icons align-adjust right'>more_vert</i>
+            </span>
+          </div>
+          <div class='card-reveal'>
+            <span class='card-title dark-text'>Hobbies
+              <i class='material-icons right'>close</i>
+            </span>
+            <p class='dark-text'>
+              Here is some more information about this product that is only
+              revealed once clicked on.
+            </p>
+          </div>
+        </div>
+      </div>
+
     </div>
 
   </div>
@@ -138,99 +180,106 @@
 
 <!-- Skills -->
 
-<div class='section'>
+<div class='section mygrey'>
   <div class='container'>
 
-    <ul class='collection with-header stag-list'>
-      <li class='collection-header stag-list'><h3 class='center-align'></h3></li>
-      <li class='collection-item stag-list'>RESTful API</li>
-      <li class='collection-item stag-list'>MVC</li>
-      <li class='collection-item stag-list'>Agile / Scrum	Methodology</li>
-      <li class='collection-item stag-list'>Responsive Web Design</li>
-      <li class='collection-item stag-list'>Deployment with Heroku</li>
-      <li class='collection-item stag-list'>Interaction Design</li>
-      <li class='collection-item stag-list'>UX/UI Design</li>
-    </ul>
+    <span class='header center-align'>
+      <h3 class='myteal-text'>
+        <span class='my-font weight-200'>Stack / Technologies</span>
+      </h3>
+    </span>
 
-    <div class='card-panel blue lighten-3 hoverable'>
-      <h3 class='header center-align scrollspy' id='skills'>The Nerdy Stuff</h3>
-
-      <div class='row center-align'>
-        <div class='col s6 m3 l3'>
-          <img class='tech-logo' src='http://i.imgur.com/WQ4xHOZ.png'/>
-          <span style='display: block;'>HTML5</span>
-        </div>
-        <div class='col s6 m3 l3'>
-          <img class='tech-logo' src='http://i.imgur.com/ulbfJ7B.png'/>
-          <span style='display: block;'>CSS3</span>
-        </div>
-        <div class='col s6 m3 l3'>
-          <img class='tech-logo' src='http://i.imgur.com/mjHRxKF.png'/>
-          <span style='display: block;'>JavaScript</span>
-        </div>
-        <div class='col s6 m3 l3'>
-          <img class='tech-logo' src='http://i.imgur.com/5wsFN5n.png'/>
-          <span style='display: block;'>jQuery</span>
-        </div>
+    <div class='row center-align scrollspy' id='skills'>
+      <div class='col s6 m3 l3'>
+        <img class='tech-logo' src='http://i.imgur.com/WQ4xHOZ.png'/>
+        <span class='dark-text' style='display: block;'>HTML5</span>
       </div>
-
-      <div class='row center-align'>
-        <div class='col s6 m3 l3'>
-          <img class='tech-logo' src='http://i.imgur.com/nhawsZv.png'/>
-          <span style='display: block;'>React JS</span>
-        </div>
-        <div class='col s6 m3 l3'>
-          <img class='tech-logo' src='http://i.imgur.com/ko7uE3o.png'/>
-          <span style='display: block;'>Bootstrap</span>
-        </div>
-        <div class='col s6 m3 l3'>
-          <img class='tech-logo' src='http://i.imgur.com/meiREkC.png'/>
-          <span style='display: block;'>Materialize</span>
-        </div>
-        <div class='col s6 m3 l3'>
-          <img class='tech-logo' src='http://i.imgur.com/XWoMjgZ.png'/>
-          <span style='display: block;'>Sass</span>
-        </div>
+      <div class='col s6 m3 l3'>
+        <img class='tech-logo' src='http://i.imgur.com/ulbfJ7B.png'/>
+        <span class='dark-text' style='display: block;'>CSS3</span>
       </div>
-
-      <div class='row center-align'>
-        <div class='col s6 m3 l3'>
-          <img class='tech-logo' src='http://i.imgur.com/Rd3AcNk.png'/>
-          <span style='display: block;'>Ruby</span>
-        </div>
-        <div class='col s6 m3 l3'>
-          <img class='tech-logo' src='http://i.imgur.com/xH7fU4s.png'/>
-          <span style='display: block;'>Ruby on Rails</span>
-        </div>
-        <div class='col s6 m3 l3'>
-          <img class='tech-logo' src='http://i.imgur.com/3afLr3a.png'/>
-          <span style='display: block;'>PostgreSQL</span>
-        </div>
-        <div class='col s6 m3 l3'>
-          <img class='tech-logo' src='http://i.imgur.com/aC1jZAk.png'/>
-          <span style='display: block;'>RSpec</span>
-        </div>
+      <div class='col s6 m3 l3'>
+        <img class='tech-logo' src='http://i.imgur.com/mjHRxKF.png'/>
+        <span class='dark-text' style='display: block;'>JavaScript</span>
       </div>
-
-      <div class='row center-align'>
-        <div class='col s6 m3 l3'>
-          <img class='tech-logo' src='http://i.imgur.com/h0OwGSd.png'/>
-          <span style='display: block;'>Git / GitHub</span>
-        </div>
-        <div class='col s6 m3 l3'>
-          <img class='tech-logo' src='http://i.imgur.com/q8qpfVk.png'/>
-          <span style='display: block;'>Adobe Suite</span>
-        </div>
+      <div class='col s6 m3 l3'>
+        <img class='tech-logo' src='http://i.imgur.com/5wsFN5n.png'/>
+        <span class='dark-text' style='display: block;'>jQuery</span>
       </div>
-
     </div>
 
+    <div class='row center-align'>
+      <div class='col s6 m3 l3'>
+        <img class='tech-logo' src='http://i.imgur.com/nhawsZv.png'/>
+        <span class='dark-text' style='display: block;'>React JS</span>
+      </div>
+      <div class='col s6 m3 l3'>
+        <img class='tech-logo' src='http://i.imgur.com/ko7uE3o.png'/>
+        <span class='dark-text' style='display: block;'>Bootstrap</span>
+      </div>
+      <div class='col s6 m3 l3'>
+        <img class='tech-logo' src='http://i.imgur.com/meiREkC.png'/>
+        <span class='dark-text' style='display: block;'>Materialize</span>
+      </div>
+      <div class='col s6 m3 l3'>
+        <img class='tech-logo' src='http://i.imgur.com/XWoMjgZ.png'/>
+        <span class='dark-text' style='display: block;'>Sass</span>
+      </div>
+    </div>
+
+    <div class='row center-align'>
+      <div class='col s6 m3 l3'>
+        <img class='tech-logo' src='http://i.imgur.com/Rd3AcNk.png'/>
+        <span class='dark-text' style='display: block;'>Ruby</span>
+      </div>
+      <div class='col s6 m3 l3'>
+        <img class='tech-logo' src='http://i.imgur.com/xH7fU4s.png'/>
+        <span class='dark-text' style='display: block;'>Ruby on Rails</span>
+      </div>
+      <div class='col s6 m3 l3'>
+        <img class='tech-logo' src='http://i.imgur.com/3afLr3a.png'/>
+        <span class='dark-text' style='display: block;'>PostgreSQL</span>
+      </div>
+      <div class='col s6 m3 l3'>
+        <img class='tech-logo' src='http://i.imgur.com/aC1jZAk.png'/>
+        <span class='dark-text' style='display: block;'>RSpec</span>
+      </div>
+    </div>
+
+    <div class='row center-align'>
+      <div class='col s6 m3 l3'>
+        <img class='tech-logo' src='http://i.imgur.com/h0OwGSd.png'/>
+        <span class='dark-text' style='display: block;'>Git / GitHub</span>
+      </div>
+      <div class='col s6 m3 l3'>
+        <img class='tech-logo' src='http://i.imgur.com/q8qpfVk.png'/>
+        <span class='dark-text' style='display: block;'>Adobe Suite</span>
+      </div>
+    </div>
+    <br>
+    <ul class='collection with-header stag-list'>
+      <li class='collection-header'><h4 class='weight-200 myteal-text center'>Experianced in...</h4></li>
+      <li class='collection-item dark-text stag-list'>RESTful API
+        <span class='secondary-class'><i class="material-icons cream-text right">web</i></span></li>
+      <li class='collection-item dark-text stag-list'>MVC
+        <span class='secondary-class'><i class="material-icons cream-text right">web</i></span></li>
+      <li class='collection-item dark-text stag-list'>Agile / Scrum	Methodology
+        <span class='secondary-class'><i class="material-icons cream-text right">web</i></span></li>
+      <li class='collection-item dark-text stag-list'>Responsive Web Design
+        <span class='secondary-class'><i class="material-icons cream-text right">web</i></span></li>
+      <li class='collection-item dark-text stag-list'>Deployment with Heroku
+        <span class='secondary-class'><i class="material-icons cream-text right">web</i></span></li>
+      <li class='collection-item dark-text stag-list'>Interaction Design
+        <span class='secondary-class'><i class="material-icons cream-text right">visibility</i></span></li>
+      <li class='collection-item dark-text stag-list'>UX/UI Design
+        <span class='secondary-class'><i class="material-icons cream-text right">assignment_ind</i></span></li>
+    </ul>
   </div>
 </div>
 
 <!-- Porfolio -->
 
-<div class='section blue lighten-2 scrollspy' id='projects'>
+<div class='section light-teal scrollspy' id='projects'>
   <div class='container'>
     <h5 class='header center-align'>Featured Projects</h5>
 
