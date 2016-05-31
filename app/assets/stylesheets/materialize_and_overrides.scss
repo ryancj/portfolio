@@ -22,6 +22,12 @@
 
 .fa:hover {
   color: #00b7af !important;
+  transition: color .28s ease;
+}
+
+.collection-item:hover i {
+  color: #00b7af;
+  transition: color .28s ease;
 }
 
 nav ul li:hover {
@@ -42,6 +48,10 @@ nav ul li:hover {
   font-weight: 200 !important;
 }
 
+.weight-300 {
+  font-weight: 300 !important;
+}
+
 .align-adjust {
   line-height: 2 !important;
 }
@@ -58,6 +68,11 @@ nav ul li:hover {
 
 .tabs .indicator {
     background-color: #00b7af;
+}
+
+///
+.simpleborder {
+  border: 1px solid red;
 }
 
 ///
